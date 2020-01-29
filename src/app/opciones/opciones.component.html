@@ -1,0 +1,9 @@
+<div>
+    <select [(ngModel)]="items" value="select" name="miselect" >
+    <option *ngFor="let objeto of objetos" [value]="objeto">{{objeto.descripcion}}</option>
+    </select> 
+</div>
+
+<app-tabla [items]="objetos"></app-tabla>
+
+

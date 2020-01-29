@@ -1,0 +1,18 @@
+<table let class="egt">
+    <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Descripcion</th>
+        </tr>
+      </thead>
+      <tbody>
+    <tr *ngFor="let item of items">
+      <th><strong>{{item.id}}</strong></th>
+      <th><strong>{{item.idStr}}</strong></th>
+      <th><strong>{{item.descripcion}}</strong></th>
+    </tr>
+</tbody>
+  </table>
+  <!-- <p>{{items}}</p> -->

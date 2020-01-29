@@ -1,0 +1,22 @@
+[
+  {
+    "id":"01",
+    "idStr":"Uno",
+    "descripcion":"El primer objeto de la lista"
+  },
+  {
+    "id":"02",
+    "idStr":"Dos",
+    "descripcion":"El segundo objeto de la lista"
+  },
+  {
+    "id":"03",
+    "idStr":"Tres",
+    "descripcion":"El tercer objeto de la lista"
+  },
+  {
+    "id":"04",
+    "idStr":"Cuatro",
+    "descripcion":"El ultimo de los objetos de la lista"
+  }
+]
